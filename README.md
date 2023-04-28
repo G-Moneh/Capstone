@@ -5,6 +5,7 @@
 
 Functions:
  LapMap - input[edge set, dataframe]. Edge set is of the form `[(base vertex, connected vertex, connected vertex...), (base vertex, connected vertex...), ...]` where the vertex ID is the index of observation from dataframe.
+ 
         - output[Laplacian matrix, dictionary], where the dictionary takes the index value of observation and returns customer ID.
         
  ConnectPoints - This is used within graphing functions to draw lines (connections) between vertices/observations.
